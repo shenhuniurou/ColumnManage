@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.wxx.columnmanage.MainActivity">
+    <item
+        android:id="@+id/action_column_manage"
+        android:orderInCategory="100"
+        android:title="@string/column_manage"
+        app:showAsAction="never" />
+</menu>

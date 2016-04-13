@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ColumnManage</string>
+    <string name="column_manage">栏目管理</string>
+    <string name="subscribe_my_column">我的栏目</string>
+    <string name="subscribe_more_column">更多栏目</string>
+    <string name="subscribe_info">长按删除拖动排序</string>
+    <string name="subscribe_manager_done">完成</string>
+</resources>
