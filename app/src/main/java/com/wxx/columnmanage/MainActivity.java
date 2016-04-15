@@ -79,6 +79,7 @@ public class MainActivity extends AppCompatActivity {
             mTabLayout.setupWithViewPager(mViewPager);
         }else {
             mAdapetr.notifyDataSetChanged();
+            mTabLayout.setupWithViewPager(mViewPager);
         }
 
     }
@@ -139,6 +140,7 @@ public class MainActivity extends AppCompatActivity {
                     for (int i = 0; i < userColumnList.size(); i++) {
                         if(columnId == userColumnList.get(i).getId()) {
                             mTabLayout.getTabAt(i).select();
+                            //mTabLayout.setScrollPosition(mTabLayout.getTabAt(i).getPosition(), 0.0F, true);
                             break;
                         }
                     }
